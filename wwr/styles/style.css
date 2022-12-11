@@ -1,15 +1,18 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Sono:wght@300&display=swap');
 /* html selectors */
 nav a{
     text-align: center;
     color: black;
     text-decoration: none;
+    padding: 35px;
 }
 main section{
     text-align: center;
 }
 body {
     background-color: #ffcad4; 
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color:#ffe5d9;
@@ -21,6 +24,8 @@ nav a:hover {
 footer{
     background-color: #ffe5d9;
     color:white;
+    padding: 25px 50px;
+    margin-top: 200px;
 
 }   
 footer a{
@@ -35,11 +40,19 @@ footer p {
 }  
 footer p a:hover {
     text-decoration: underline;
-}                 
+}  
+footer .social img{
+    padding-top: 15px;
+}
+h2{
+    margin: 0;
+}               
 h4{
     color: black;
 }
-
+main section img {
+    box-sizing: border-box;
+}
 /* class selectors */
 .button-box{
     text-align: center;
@@ -48,25 +61,43 @@ h4{
     background-color:#ffe5d9 ;
     color: black;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover{
     color:white;
 }
 .msg{
     background-color:#ffe5d9 ;
-
+    line-height: 1.5em;
+    padding: 35px;
 }
 .home-title{
     color:black ;
+    font-family: Helvetica;
+    font-size: 2em;
+    margin-top: 10px;
 }
 .msg h2{
     color: black;
+    font-family: Indie Flower;
 }
 .msg p{
     color:black ;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
+}
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+.card-img{
+    border: 10px solid black;
 }
 /* id selectors */
 
@@ -82,4 +113,7 @@ h4{
 }
 #hero-img{
     width:100%;
+}
+#logo_link{
+    padding-top: 5px;
 }
